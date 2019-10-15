@@ -3,6 +3,8 @@ The first portion of the flask microblog assesment is a simpled hello
 THe second portion 
 of the assesment is aimed at teaching you how to use templates to use templates to easily render html.
 In using templates you are afforded more options, including conditionals and loops in your html.
+
+The third portion requires the developer to create a config.py with a config class inside to be used later. Also must include a login form class in the forms.py file. The login form needs to have username password and a remeber me as its attributes. Base .html needs to have the anchor tag for the /login endpoint and logic for errors, and the routes.py should be updated with the logic to handle login data
 Getting started
 To get a copy of this project you must clone the repo by running
 "git@github.com:wharris64/microblog.git" in your terminal
