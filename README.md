@@ -1,5 +1,8 @@
 # microblog
 The first portion of the flask microblog assesment is a simpled helloworld application. When the program is run it will display "Hello World!" on two endpoints, "/" and "/index".
+THe second portion 
+of the assesment is aimed at teaching you how to use templates to use templates to easily render html.
+In using templates you are afforded more options, including conditionals and loops in your html.
 Getting started
 To get a copy of this project you must clone the repo by running
 "git@github.com:wharris64/microblog.git" in your terminal
@@ -14,6 +17,7 @@ to install pip env on your machine
 
 
 To run the program run 
+$: export flask=microblog.py
 $: flask run
 Then go to "localhost:5000/", "loalhost:5000/index", or hold command and click http://127.0.0.1:5000/ as it appears in the command line below.
 
